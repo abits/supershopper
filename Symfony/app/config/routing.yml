@@ -2,3 +2,9 @@
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
+hello:
+    pattern:  /hello/{name}
+    defaults: { _controller: AcmeDemoBundle:Demo:hello }
+#AcmeDemoBundle:
+#  resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+#  prefix: /
