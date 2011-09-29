@@ -1,0 +1,4 @@
+# src/Acme/DemoBundle/Resources/config/routing.yml
+hello:
+    pattern:  /hello/{name}
+    defaults: { _controller: AcmeDemoBundle:Demo:hello }
